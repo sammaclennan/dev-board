@@ -3,7 +3,7 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.39999999999999997,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|107580000|37000000|c1573e21-385b-4e1d-a62e-411c7b75784e|4be5a3ca-1e1d-4bb7-b770-74a2453b6b44",
-        "silk_edge_clearance|98640000|37000000|c1573e21-385b-4e1d-a62e-411c7b75784e|65d26195-4e56-44ea-a2ab-8d30f147a27a"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
