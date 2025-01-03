@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|107580000|37000000|c1573e21-385b-4e1d-a62e-411c7b75784e|4be5a3ca-1e1d-4bb7-b770-74a2453b6b44",
-        "silk_edge_clearance|98640000|37000000|c1573e21-385b-4e1d-a62e-411c7b75784e|65d26195-4e56-44ea-a2ab-8d30f147a27a"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -480,6 +477,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.09,
+        "diff_pair_gap": 0.09,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_DATA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -487,7 +501,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_DATA",
+        "pattern": "DP"
+      },
+      {
+        "netclass": "USB_DATA",
+        "pattern": "DN"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

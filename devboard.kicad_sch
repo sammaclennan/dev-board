@@ -4308,7 +4308,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 163.83) (xy 71.12 163.83)
+			(xy 72.39 163.83) (xy 73.66 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5098,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 63.5 168.91)
+			(xy 62.23 168.91) (xy 67.31 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5278,7 +5278,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 163.83) (xy 63.5 163.83)
+			(xy 62.23 163.83) (xy 67.31 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5358,7 +5358,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 168.91) (xy 71.12 168.91)
+			(xy 72.39 168.91) (xy 73.66 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5643,6 +5643,28 @@
 			)
 		)
 	)
+	(global_label "DP"
+		(shape bidirectional)
+		(at 64.77 163.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bfe5db4-8e65-489a-9ce5-c85729e00599")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 157.1935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL3"
 		(shape input)
 		(at 234.95 127 0)
@@ -5793,6 +5815,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DN"
+		(shape bidirectional)
+		(at 64.77 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38949b16-c3ff-44bc-a6b0-2f4c3fa7a88b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 175.607 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6437,7 +6481,7 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 71.12 163.83 0)
+		(at 73.66 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6447,7 +6491,7 @@
 		)
 		(uuid "c72380c7-9b9e-4e0f-87f0-f2f8ec804623")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.1257 163.83 0)
+			(at 79.6657 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6635,7 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 71.12 168.91 0)
+		(at 73.66 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6601,7 +6645,7 @@
 		)
 		(uuid "ff50742c-a6b5-4c81-a080-5ba0ab221925")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.1257 168.91 0)
+			(at 79.6657 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10647,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 66.04 163.83 90)
+		(at 69.85 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10611,7 +10655,7 @@
 		(dnp no)
 		(uuid "c0f5f1b9-dadd-4aa8-ae07-42966a095678")
 		(property "Reference" "R11"
-			(at 65.024 159.512 0)
+			(at 68.834 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10620,7 +10664,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 67.056 160.528 0)
+			(at 70.866 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10673,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 163.83 0)
+			(at 69.85 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10638,7 +10682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 163.83 0)
+			(at 69.85 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +10691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 163.83 0)
+			(at 69.85 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11482,7 +11526,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 66.04 168.91 90)
+		(at 69.85 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11490,7 +11534,7 @@
 		(dnp no)
 		(uuid "e58c7b29-8d81-48e1-802e-8a102a32d8e8")
 		(property "Reference" "R10"
-			(at 65.278 171.704 0)
+			(at 69.088 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11498,7 +11542,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 67.056 171.704 0)
+			(at 70.866 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11506,7 +11550,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 168.91 0)
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11515,7 +11559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 168.91 0)
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,7 +11568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 168.91 0)
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
