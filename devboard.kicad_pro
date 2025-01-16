@@ -526,7 +526,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "devboard.step",
       "svg": "",
       "vrml": ""
     },
